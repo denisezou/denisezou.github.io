@@ -1,0 +1,176 @@
+/** Style sheet for the index, contact, and portfolio.**/
+
+body {  font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  background-image: url("morocco-blue.png");
+}
+
+header {background-color: #ffffff;
+  position: fixed;
+  top:0;
+  left:0;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  padding: 40px;
+  height:40px;
+  width: 100%;
+  border: 2px solid #cccccc;
+  z-index: 2;}
+
+#myName {clear: both;
+  float: left;
+  position: absolute;
+  text-align: center;
+  line-height: 50px;
+  top:0px;
+  left: 39px;
+  width: 15%;
+  height: 31%;
+  font-weight: 100;
+  border:2px solid #cccccc;
+  padding: 40px;
+  margin-left: 0px;
+  margin-bottom: 0px;
+  color: #ffffff;
+  background: #4aaaa5;
+  font-size: 40px;
+  z-index: 2;}
+
+#choosePage {float: inherit;
+  position: relative;
+  left:1100px;
+  padding: 0px;
+  margin: 0px;
+  color: #cccccc;
+  background: #ffffff;
+  font-size: 30px;
+  z-index: 2;}
+
+#deniseBiopic {clear: both;
+  position: relative;
+  top:7px;
+  size: 20px;
+  margin: 20px;
+  float: left;}
+
+#AboutMe {clear: both;
+  line-height: 20px;
+  border-bottom: 2px solid #cccccc;
+  margin: 0, 0, 100px, 0;
+  width: 85%;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font: bold;
+  z-index: 1;
+  padding: 5px;
+  color: #4aaaa5;
+  background-color: #ffffff;
+  font-size: 25px;
+}
+
+.container {clear: both;
+  position: relative;
+  top: 50px;
+  bottom: 50px;
+  margin: 100;
+  background-color: #cccccc;
+  padding: 10px;
+  width: 80%;
+  font-size: 25px;
+  z-index: 1;
+}
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 15px;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color:white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover {
+  background-color: #4aaaa5;
+}
+
+#AboutContact {clear: both;
+  line-height: 20px;
+  border-bottom: 2px solid #cccccc;
+  margin: 0, 0, 100px, 0;
+  width: 85%;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font: bold;
+  padding: 5px;
+  color: #4aaaa5;
+  background-color: #ffffff;
+  font-size: 25px;
+}
+
+
+#AboutPortfolio {clear: both;
+  line-height: 20px;
+  border-bottom: 2px solid #cccccc;
+  margin: 0, 0, 100px, 0;
+  width: 85%;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font: bold;
+  padding: 5px;
+  color: #4aaaa5;
+  background-color: #ffffff;
+  font-size: 25px;
+}
+
+#CrissyPic {clear: both;
+  position: relative;
+  top:7px;
+  left:87px;
+  size: 20px;
+  margin: 20px;
+  float: left;
+}
+
+#AdaptPic {clear: both;
+    position: relative;
+    top:7px;
+    left: 125px;
+    size: 20px;
+    margin: 20px;
+    float: left;
+  }
+  
+  #brainsaside {background-color: #4aaaa5;
+    color: white;
+    font-size: 105%;
+    padding: 1%;
+    margin:10px;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 400px;
+    left:20px;
+    width:80%;
+    height: 10%;
+    z-index: 3;
+  }
+
+  #ipadaside {background-color: #4aaaa5;
+    color: white;
+    font-size: 105%;
+    padding: 1%;
+    margin:10px;
+    text-align: center;
+    line-height: 120px;
+    position: absolute;
+    top: 900px;
+    left:130px;
+    width:64%;
+    height: 10%;
+    z-index: 3;
+  }
