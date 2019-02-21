@@ -1,0 +1,59 @@
+    body {
+    position: relative;
+    background-color: #ffffff;
+    box-sizing: border-box;
+    padding: 24px 16px;
+    width: 80%;
+    color: #3c4043;
+    font-family: Roboto, 'Helvetica Neue', Helvetica, sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+    }
+
+    h5{
+    padding: 10px;    
+    }
+
+    img {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    }
+
+    .card{
+    float: left;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    }
+
+    .crystal {
+    text-align: center;
+    width: 100%;
+    height: auto;
+    top: 50%;
+    left: 50%;
+    }
+
+    .container {
+    display: inline-block;
+    position: relative;
+    }
+
+    .card-header{
+    text-align: center
+    }
+
+    .card-body{
+    text-align: center
+    }
+
+    #wins{
+    text-align: center
+    }
+
+    #losses{
+    text-align: center
+    }

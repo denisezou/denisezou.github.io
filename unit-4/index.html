@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang = "en-us">
+<head>
+<meta charset = "UTF-8">
+<title>Crystal Game</title>
+</head>
+<body>
+
+    <!--Make 10 objects-->
+
+
+    
+    <div class = container>
+
+        <div class = row>
+
+            <div class= "col-xl-11 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                <div class= "card">
+    <!--Says "Crystal Collector!"-->
+                    <h3 class= "card-header">Crystal Collector!</h3>
+    <!--Says the instructions-->
+                        <h5> You will be given a random number at the start of the game.
+                        There are four crystals below. By clicking on a crystal you will add a certain number of points to your score.
+                        You will win the game by matching your total score to the random number. You lose the game if your total score goes above the random number.
+                        
+                        The value of each crystal is hidden from you until you click on it.
+                    
+                        Each time when the game starts, the game will change the values of each crystal.</h5>
+    <!--4 Crystal buttons-->
+                    <div class= "card-body col-xl-12 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+                        <button id="button-1" class="btn btn-dark crystal"> <img src = "assets\images\crystal1.png" height = 150 width = 200/> </button>
+                        <button id="button-2" class="btn btn-success crystal"> <img src = "assets\images\crystal2.jpg" height = 150 width = 200/> </button>
+                        <button id="button-3" class="btn btn-warning crystal"> <img src = "assets\images\crystal3.jpg" height = 150 width =200/> </button>
+                        <button id="button-4" class="btn btn-info crystal"> <img src = "assets\images\crystal4.jpg" height = 150 width = 200/> </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class = row>
+            <div class = "col-xl-11 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+    <!--Box that displays the computer's random number-->
+                <h5 class = "card-header">Computer's number</h5>
+                <div class = "card-body">
+                    <h3 id="computer-number"></h3>
+
+                </div>
+            </div>
+        </div>
+        <div class = row>
+            <div class = "col-xl-11 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+    <!--Box that says "Your total score is:"-->
+                <h5 class = "card-header">Your sum total</h5>
+                <div class = "card-body">
+                        <!--Box with number-->
+                    <h3 id="user-sum-total"></h3>
+                </div>
+            </div>
+        </div>
+        <div class = row>
+            <div class = "col-xl-11 col-lg-10 col-md-10 col-sm-12 col-xs-12">
+    <!--Box that shows the total number of wins and losses, 
+        AND says "You win!!" or "You lose!!"-->
+            <h5 class = "card-header">Wins and Losses</h5>
+                <div class = "card-body">
+                    <h3 id="wins"></h3>
+                    <h3 id="losses"></h3>
+                </div>
+            </div>
+        </div>
+    </div>
+
+<div id="buttons"></div>
+
+
+        <!-- Added a link to Bootstrap-->
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+
+
+        <!-- Added link to the jQuery Library -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+        <!--Javascript file goes here.-->
+        <script type="text/javascript" src="assets\javascript\game.js"></script>
+
+        <!--CSS-->
+        <link rel="stylesheet" type="text/css" href="assets\css\style.css">
+
+</body>
+</html>
