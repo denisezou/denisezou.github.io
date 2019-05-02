@@ -1,0 +1,82 @@
+body {
+  background-color: coral;
+  color: black;
+  font-size: 16pt;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("seamless.jpg");
+}
+
+.selection {
+  position: relative;
+  width: 950px;
+  height: auto;
+  margin: auto;
+}
+
+img {
+  padding: 3px;
+  border: solid 1px #e1e1e1;
+}
+
+img.nice {
+  float: left;
+  margin-right: 1.5em;
+  margin-bottom: 1.5em;
+  margin-top: 0.5em;
+}
+
+@media only screen and (min-width: 1px) and (max-width: 600px) {
+  .header {
+    width: 100%;
+    float: left;
+  }
+
+  .selection {
+    position: absolute;
+    bottom: 2em;
+  }
+
+  .nice {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 768px) {
+  .header {
+    width: 50%;
+    display: block;
+  }
+
+  .selection {
+    position: absolute;
+    bottom: 2em;
+  }
+
+  .nice {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+}
+
+@media only screen and (max-width: 969px) {
+  .header {
+    width: 100%;
+    float: none;
+    display: block;
+    text-align: left;
+  }
+
+  .selection {
+    position: absolute;
+    bottom: 2em;
+  }
+
+  .nice {
+    width: auto;
+    height: auto;
+    max-width: 30%;
+  }
+}
