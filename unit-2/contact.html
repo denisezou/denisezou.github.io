@@ -5,6 +5,7 @@
 <head>
     <title>Denise Sun Zou</title>
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="style.css" />
 
 </head>
@@ -13,39 +14,41 @@
 <header>
 
 
-    <div class="container-fluid text-center py-lg-4 py-md-4 py-sm-8 py-xs-12 header">
-        <div class="row">
-            <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="index.html">About</a>
-            <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="contact.html">Contact</a>
-            <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="portfolio.html">Portfolio</a>
-        </div>
-    </div>
-
-    </div>
+        <div class="container-fluid text-center py-lg-4 py-md-4 py-sm-8 py-xs-12 header">
+                <div class="row">
+                    <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="index.html"  style="text-decoration : none; color : #000000;">About</a>
+                    <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="contact.html"  style="text-decoration : none; color : #000000;">Contact</a>
+                    <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="portfolio.html"  style="text-decoration : none; color : #000000;">Portfolio</a>
+                </div>
+                <div class="row">
+                        <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="https://github.com/denisezou?tab=repositories" style="text-decoration : none; color : #000000;">Github</a>
+                        <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="https://ca.linkedin.com/in/denise-zou-04b87182" style="text-decoration : none; color : #000000;">LinkedIn</a>
+                        <a class="col-lg-4 col-md-4 col-sm-12 col-xs-12" href="https://www.researchgate.net/profile/Denise_Zou?_iepl%5BgeneralViewId%5D=LyrgNTE1LlQLj5SNYRuC6j1MjaZ8HyLktVr4&_iepl%5Bcontexts%5D%5B0%5D=searchReact&_iepl%5BviewId%5D=aRncHUzJrO21qO89Hn5g8VtXdCJ0pc6m2UiV&_iepl%5BsearchType%5D=researcher&_iepl%5Bdata%5D%5BcountMoreThan20%5D=1&_iepl%5Bdata%5D%5BinteractedWithPosition1%5D=1&_iepl%5Bdata%5D%5BwithoutEnrichment%5D=1&_iepl%5Bposition%5D=1&_iepl%5BrgKey%5D=AC%3A10244357&_iepl%5BinteractionType%5D=profileView" style="text-decoration : none; color : #000000;">ResearchGate</a>
+                </div>
+            </div>
+        
 
 </header>
 
 <body>
 
-    <div class="selection">
 
-        <h3 class="row text-fluid">Contact</h3>
-
+    <div class="selection" style="position: fixed; top: 50%; left: 50%; margin: -100px 0 0 -100px; padding: 10px;">
 
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <label for="fullname"><br>Full Name <br></label>
-            <input type="text" id="fullname" name="yourname" placeholder="Your full name...">
+            <input class="form-control input-group" type="text" id="fullname" name="yourname" placeholder="Your full name...">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <label for="emailaddress">Your Email<br></label>
-            <input type="text" id="youremail" name="youremailaddress" placeholder="Your email address...">
+            <input class="form-control input-group" type="text" id="youremail" name="youremailaddress" placeholder="Your email address...">
         </div>
         <div class="col-lg-4 col-md-4 col-sm-12 col-xs-12">
             <label for="message">Message <br></label>
-            <textarea id="message" name="message" placeholder="Type your message to Denise Zou...">
-            </textarea></div>
-
-        <input type="submit" value="Submit">
+            <textarea class="form-control input-group" id="message" name="message" placeholder="Type your message to Denise Zou...">
+            </textarea>
+        </div>
+        <button style="margin:auto; padding:1em" class="btn">Submit</button>
 
     </div>
 </body>
