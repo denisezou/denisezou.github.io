@@ -1,4 +1,4 @@
-# Denise Zou
+
 This is the portfolio for the Coding Bootcamp (January-July 2019) at Northwestern University. 
 
 You will find that the styling uses Bootstrap and a personal CSS stylesheet.
